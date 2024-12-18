@@ -1,0 +1,11 @@
+@startuml
+"pom.xml" --> "org.apache.commons:commons-lang3"
+"pom.xml" --> "org.springframework.boot:spring-boot-starter-web"
+"pom.xml" --> "org.apache.httpcomponents:httpclient"
+"pom.xml" --> "com.fasterxml.jackson.core:jackson-databind"
+"pom.xml" --> "org.slf4j:slf4j-api"
+"pom.xml" --> "org.apache.commons:commons-io"
+"pom.xml" --> "com.google.guava:guava"
+"pom.xml" --> "org.springframework.boot:spring-boot-starter-data-jpa"
+"pom.xml" --> "org.springframework.boot:spring-boot-starter-logging"
+@enduml
